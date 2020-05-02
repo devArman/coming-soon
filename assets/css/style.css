@@ -97,6 +97,11 @@ input:-moz-placeholder { /* Firefox 18- */
     background: url("../images/coming-soon-banner.jpg") no-repeat center;
     background-size: cover;
    padding: 32px 0 75px;
+    min-height: 100vh;
+}
+.coming-soon-top-banner header{
+    position: absolute;
+    width: 100%;
 }
 .coming-soon-top-banner h1{
     font-size: 38px;
