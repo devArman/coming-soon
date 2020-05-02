@@ -1,0 +1,26 @@
+@media screen and (max-width: 767px) {
+    .orange-title20{
+        font-size: 16px;
+    }
+    .small-wrapper{
+        padding: 0 20px;
+    }
+    .founder-info-box img {
+        max-width: 214px;
+        margin-left: -10px;
+    }
+    .image-row {
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .date-select-row {
+        flex-direction: column;
+    }
+    .coming-soon-top-banner h1 {
+        font-size: 30px;
+    }
+    .image-row {
+        padding: 0;
+    }
+}

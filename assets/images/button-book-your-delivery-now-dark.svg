@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="139" height="139" viewBox="0 0 139 139">
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="70" cy="70" r="66"  stroke="#2c3448" stroke-width="5"/>
+        <text fill="#2c3448" font-family="geneo-std, sans-serif" font-size="12" letter-spacing="1.8"  font-weight="bold">
+            <tspan x="25.1" y="49">BOOK YOUR</tspan>
+        </text>
+        <text fill="#2c3448" font-family="geneo-std, sans-serif" font-size="15" letter-spacing="2.6" font-weight="bold">
+            <tspan x="21.28" y="76">DELIVERY</tspan>
+        </text>
+        <text fill="#2c3448" font-family="geneo-std, sans-serif" font-size="15" letter-spacing="2.6" font-weight="bold">
+            <tspan x="46.367" y="102">NOW</tspan>
+        </text>
+    </g>
+</svg>

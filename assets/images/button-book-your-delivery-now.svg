@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="136" height="136" viewBox="0 0 136 136">
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="68" cy="68" r="67" fill="#000" fill-opacity=".54" stroke="#DC7867" stroke-width="2"/>
+        <text fill="#DC7867" font-family="NexaRegular, Nexa Regular" font-size="12" letter-spacing="1.8">
+            <tspan x="25.1" y="49">BOOK YOUR</tspan>
+        </text>
+        <text fill="#DC7867" font-family="NexaRegular, Nexa Regular" font-size="15" letter-spacing="2.6">
+            <tspan x="21.28" y="76">DELIVERY</tspan>
+        </text>
+        <text fill="#DC7867" font-family="NexaRegular, Nexa Regular" font-size="15" letter-spacing="2.6">
+            <tspan x="46.367" y="102">NOW</tspan>
+        </text>
+    </g>
+</svg>
