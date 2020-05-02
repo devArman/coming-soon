@@ -28,6 +28,10 @@ p a{
     color: #2c3448;
     text-decoration: underline;
 }
+p a:hover{
+    color: #dc7867;
+}
+
 input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: rgba(44, 52, 72,.3);
 }
@@ -176,13 +180,16 @@ input:-moz-placeholder { /* Firefox 18- */
     -o-transition: 0.6s ease;
     transition: 0.6s ease;
 }
+.book-delivery-btn:focus{
+    text-decoration: none;
+}
 .date-select-row{
     margin: 0 -4px;
 }
 .date-select-row .col-md-4{
     padding: 0 4px;
 }
-circle{
+.book-delivery-btn svg circle{
     stroke-dasharray: 427;
     stroke-dashoffset: 0;
     -webkit-animation: 3s linear 0s infinite alternate rotate;
@@ -216,8 +223,8 @@ circle{
     text-transform: uppercase;
     padding: 8px 25px;
     font-family: 'NexaBold';
+    line-height: 20px;
 }
-
 @-webkit-keyframes rotate {
     to {
         stroke-dashoffset: 227;
