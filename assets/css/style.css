@@ -190,12 +190,15 @@ input:-moz-placeholder { /* Firefox 18- */
     padding: 0 4px;
 }
 .book-delivery-btn svg circle{
-    stroke-dasharray: 427;
-    stroke-dashoffset: 0;
-    -webkit-animation: 3s linear 0s infinite alternate rotate;
-    -moz-animation:    3s linear 0s infinite alternate rotate;
-    -o-animation:      3s linear 0s infinite alternate rotate;
-    animation: 3s linear 0s infinite alternate rotate;
+    -webkit-animation: 4.5s ease-in-out infinite both rotate;
+    -moz-animation:    4.5s ease-in-out infinite both rotate;
+    -o-animation:      4.5s ease-in-out infinite both rotate;
+    animation: 4.5s ease-in-out infinite both rotate;
+    stroke-linecap: round;
+    stroke-dasharray: 463;
+    stroke-dashoffset: 400;
+    stroke-width: 2px;
+    transform-origin: 50% 50%;
 }
 .book-delivery-btn svg:hover circle{
     stroke: #d6dce3;
@@ -226,23 +229,67 @@ input:-moz-placeholder { /* Firefox 18- */
     line-height: 20px;
 }
 @-webkit-keyframes rotate {
-    to {
-        stroke-dashoffset: 227;
+    0%,
+    25% {
+        stroke-dashoffset: 250;
+        transform: rotate(0);
+    }
+    50%,
+    75% {
+        stroke-dashoffset: 42;
+        transform: rotate(45deg);
+    }
+    100% {
+        stroke-dashoffset: 250;
+        transform: rotate(360deg);
     }
 }
 @-moz-keyframes rotate {
-    to {
-        stroke-dashoffset: 227;
+    0%,
+    25% {
+        stroke-dashoffset: 250;
+        transform: rotate(0);
+    }
+    50%,
+    75% {
+        stroke-dashoffset: 42;
+        transform: rotate(45deg);
+    }
+    100% {
+        stroke-dashoffset: 250;
+        transform: rotate(360deg);
     }
 }
 @-o-keyframes rotate {
-    to {
-        stroke-dashoffset: 227;
+    0%,
+    25% {
+        stroke-dashoffset: 250;
+        transform: rotate(0);
+    }
+    50%,
+    75% {
+        stroke-dashoffset: 42;
+        transform: rotate(45deg);
+    }
+    100% {
+        stroke-dashoffset: 250;
+        transform: rotate(360deg);
     }
 }
 @keyframes rotate {
-    to {
-        stroke-dashoffset: 227;
+    0%,
+    25% {
+        stroke-dashoffset: 250;
+        transform: rotate(0);
+    }
+    50%,
+    75% {
+        stroke-dashoffset: 42;
+        transform: rotate(45deg);
+    }
+    100% {
+        stroke-dashoffset: 250;
+        transform: rotate(360deg);
     }
 }
 .thank-you-box{
