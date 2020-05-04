@@ -12,6 +12,39 @@
     .image-row {
         padding: 0 20px;
     }
+    .sidebar-question {
+        margin-right: 25px;
+    }
+    .privacy-header li:last-child{
+        display: none;
+    }
+    .privacy-header li h1 {
+        letter-spacing: 3.4px;
+        font-size: 23px;
+        text-align: right;
+    }
+    .privacy-header {
+        padding: 22px 0;
+    }
+}
+@media screen and (max-width: 667px) {
+    .sidebar-question {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .question-answer-section {
+        flex-direction: column;
+    }
+    .question-answer .question-title {
+        font-size: 18px;
+    }
+    .question-answer p {
+        font-size: 15px;
+    }
+    .question-answer-row {
+        margin-bottom: 20px;
+    }
 }
 @media screen and (max-width: 550px) {
     .date-select-row {
@@ -23,4 +56,5 @@
     .image-row {
         padding: 0;
     }
+
 }

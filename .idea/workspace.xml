@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e7129fe8-d1b6-4664-94e1-a849be869848" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,14 +116,9 @@
       <workItem from="1588409563742" duration="425000" />
       <workItem from="1588410015407" duration="12917000" />
       <workItem from="1588425221499" duration="2336000" />
-      <workItem from="1588444313988" duration="1381000" />
-    </task>
-    <task id="LOCAL-00031" summary="changes">
-      <created>1585119232817</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1585119232817</updated>
+      <workItem from="1588444313988" duration="2047000" />
+      <workItem from="1588504117823" duration="3459000" />
+      <workItem from="1588571400548" duration="6280000" />
     </task>
     <task id="LOCAL-00032" summary="changes">
       <created>1585124005363</created>
@@ -460,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588427324131</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="change spinner">
+      <created>1588445744039</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1588445744040</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,17 +482,18 @@
     <MESSAGE value="fixings" />
     <MESSAGE value="add coming soon" />
     <MESSAGE value="coming soon fixing" />
-    <option name="LAST_COMMIT_MESSAGE" value="coming soon fixing" />
+    <MESSAGE value="change spinner" />
+    <option name="LAST_COMMIT_MESSAGE" value="change spinner" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588342038098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1588342038098" />
-    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1588427323372">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1588445742123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588427323372" />
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588445742123" />
     <state x="147" y="71" key="DiffContextDialog" timestamp="1585815562437">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -502,17 +506,21 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="607" y="124" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585405581877" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1588427329704">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1588445763389">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588427329704" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1588444365583">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588445763389" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1588571497487">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588444365583" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1585665503559">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588571497487" />
+    <state x="485" y="205" key="git4idea.merge.GitPullDialog" timestamp="1588445755049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585665503559" />
+    <state x="485" y="205" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1588445755049" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1588580162012">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1588580162012" />
   </component>
 </project>
